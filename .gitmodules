@@ -1,0 +1,3 @@
+[submodule "go-sayhello-module"]
+	path = go-sayhello-module
+	url = https://github.com/mirzaq19/go-sayhello-module
