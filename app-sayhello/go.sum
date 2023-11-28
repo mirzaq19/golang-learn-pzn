@@ -4,3 +4,5 @@ github.com/mirzaq19/go-sayhello-module v1.0.2 h1:0fBAfg58OodJDuECqNC7JymXf8zugKh
 github.com/mirzaq19/go-sayhello-module v1.0.2/go.mod h1:JHl9GQhoenSRCjEhOJcroamay7tHL6TYm7WqO3Ec7Yk=
 github.com/mirzaq19/go-sayhello-module v1.1.0 h1:u0tXMq1kzqnqbG8N4BRxN5N7a9/V2Lnu8HkPr6fPbOs=
 github.com/mirzaq19/go-sayhello-module v1.1.0/go.mod h1:JHl9GQhoenSRCjEhOJcroamay7tHL6TYm7WqO3Ec7Yk=
+github.com/mirzaq19/go-sayhello-module/v2 v2.0.1 h1:9zCpm8bfpkpUxI8tgv0s4OGNuhoZnkSamCtXtwDgLX4=
+github.com/mirzaq19/go-sayhello-module/v2 v2.0.1/go.mod h1:9ZZjcEqGyunhRFYqP4jItvZvClkc/BTI6h4b1ry3AK4=
