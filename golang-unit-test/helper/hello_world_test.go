@@ -8,6 +8,17 @@ import (
 	"testing"
 )
 
+func TestSubTest(t *testing.T) {
+	t.Run("Mirzaq", func(t *testing.T) {
+		result := HelloWorld("Mirzaq")
+		assert.Equal(t, "Hello Mirzaq", result, "Result must be 'Hello Mirzaq'")
+	})
+	t.Run("Budi", func(t *testing.T) {
+		result := HelloWorld("Budi")
+		assert.Equal(t, "Hello Budi", result, "Result must be 'Hello Budi'")
+	})
+}
+
 func TestMain(m *testing.M) {
 	// Before
 	fmt.Println("Sebelum UNIT TEST")
