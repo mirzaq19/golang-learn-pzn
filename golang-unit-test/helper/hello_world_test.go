@@ -8,6 +8,14 @@ import (
 	"testing"
 )
 
+func TestMain(m *testing.M) {
+	// Before
+	fmt.Println("Sebelum UNIT TEST")
+	m.Run()
+	// After
+	fmt.Println("Setelah UNIT TEST")
+}
+
 func TestSkip(t *testing.T) {
 	if runtime.GOOS == "windows" {
 		t.Skip("Can not run on windows")
