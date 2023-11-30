@@ -4,8 +4,18 @@ import (
 	"fmt"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"runtime"
 	"testing"
 )
+
+func TestSkip(t *testing.T) {
+	if runtime.GOOS == "windows" {
+		t.Skip("Can not run on windows")
+	}
+
+	result := HelloWorld("Mirzaq")
+	assert.Equal(t, "Hello Mirzaq", result, "Result must be 'Hello Mirzaq'")
+}
 
 func TestHelloWorldAssert(t *testing.T) {
 	result := HelloWorld("Mirzaq")
