@@ -43,7 +43,7 @@ type Page struct {
 func TemplateDataStruct(writer http.ResponseWriter, request *http.Request) {
 	t := template.Must(template.ParseFiles("./templates/name.gohtml"))
 	t.ExecuteTemplate(writer, "name.gohtml", Page{
-		Title: "Template Data Map",
+		Title: "Template Data Struct",
 		Name:  "M. Auliya Mirzaq Romdloni",
 		Address: Address{
 			Street: "Jl. xxx no.123",
