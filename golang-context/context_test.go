@@ -138,7 +138,7 @@ func TestContextWithTimeout(t *testing.T) {
 			break
 		}
 	}
-	cancel()
+
 	time.Sleep(1 * time.Second)
 	fmt.Println("Total Goroutine:", runtime.NumGoroutine())
 }
