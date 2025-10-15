@@ -1,0 +1,20 @@
+{
+  "FirstName": "M. Auliya",
+  "MiddleName": "Mirzaq",
+  "LastName": "Romdloni",
+  "Age": 30,
+  "Married": true,
+  "Hobbies": ["Gaming", "Coding", "Sleeping"],
+  "Addresses": [
+    {
+      "Street": "Jalan Belum Ada",
+      "Country": "Indonesia",
+      "PostalCode": "999999"
+    },
+    {
+      "Street": "Jalan Lagi Dibangun",
+      "Country": "Indonesia",
+      "PostalCode": "888888"
+    }
+  ]
+}
